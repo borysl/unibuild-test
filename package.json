@@ -1,0 +1,33 @@
+{
+  "name": "unibuild-test",
+  "version": "0.1.0",
+  "description": "Try out unibuild (https://github.com/borysl/unibuild.git)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/unibuild/index.js help",
+    "arguments": "node node_modules/unibuild/index.js arguments -- arg1 arg2",
+    "openUrl": "node node_modules/unibuild/index.js openUrl http://www.i.ua/",
+    "openUrlHttps": "node node_modules/unibuild/index.js openUrl https://www.google.com.ua/",
+    "mailTo": "node node_modules/unibuild/index.js mailTo borys.lebeda@gmail.com -s Test -b Hello\\nI'm there!" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borysl/unibuild-test.git"
+  },
+  "keywords": [
+    "unibuild",
+    "build",
+    "automation",
+    "npm"
+  ],
+  "author": "Borys Lebeda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borysl/unibuild-test/issues"
+  },
+  "homepage": "https://github.com/borysl/unibuild-test#readme",
+  "dependencies": {
+    "unibuild": "^0.1.6"
+  },
+  "private": "true"
+}
